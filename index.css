@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+p {
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+input {
+    outline: none;
+    border: 0px;
+    border-bottom: 0.5px solid black;
+    margin: 0%;
+    width: 100%;
+}
+
+label {
+    border-bottom: 0.5px solid black;
+    font-size: 15px;
+}
+
+.pd-5 {
+    padding: 5px;
+}
+
+.pd-10 {
+    padding: 10px;
+}
+
+.pd-l-10 {
+    padding-left: 10px;
+}
+
+.mr-t-10 {
+    margin-top: 10px;
+}
+
+.mr-t-20 {
+    margin-top: 20px;
+}
+
+.mr-b-10 {
+    margin-bottom: 10px;
+}
+
+.mr-5 {
+    margin: 5px;
+}
+
+.parentCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08),
+        0 4px 12px rgba(0, 0, 0, .08);
+    width: 50vw;
+    min-height: 40vh;
+}
+
+#collectMarksForm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tableColumns {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 33.3%;
+    border: 1px solid black;
+}
+
+.btnCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.secondaryButton {
+    padding: 5px 15px;
+    font-size: 12px;
+    color: white;
+    background-color: #1338be;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid #1338BE;
+}

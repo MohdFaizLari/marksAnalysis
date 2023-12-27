@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Progress-Bar</title>
+  </head>
+  <body>
+    <main class="parentCont pd-10" id="parentContainer">
+      <form
+        method="post"
+        name="collectMarksForm"
+        id="collectMarksForm"
+        class="pd-5"
+      >
+        <div class="tableColumns">
+          <p>Subjects</p>
+          <label for="hindi" class="pd-l-10">Hindi</label>
+          <label for="english" class="pd-l-10">English</label>
+          <label for="math" class="pd-l-10">Math</label>
+          <label for="physics" class="pd-l-10">Physics</label>
+          <label for="chemistry" class="pd-l-10">Chemistry</label>
+        </div>
+        <div class="tableColumns">
+          <p>Marks</p>
+          <input
+            type="number"
+            class="pd-l-10"
+            id="hindi"
+            placeholder="Enter Marks"
+            required
+          />
+          <input
+            type="number"
+            class="pd-l-10"
+            id="english"
+            placeholder="Enter Marks"
+            required
+          />
+          <input
+            type="number"
+            class="pd-l-10"
+            id="math"
+            placeholder="Enter Marks"
+            required
+          />
+          <input
+            type="number"
+            class="pd-l-10"
+            id="physics"
+            placeholder="Enter Marks"
+            required
+          />
+          <input
+            type="number"
+            class="pd-l-10"
+            id="chemistry"
+            placeholder="Enter Marks"
+            required
+          />
+        </div>
+
+        <div class="tableColumns">
+          <p>Colour</p>
+          <input
+            type="text"
+            class="pd-l-10"
+            id="color1"
+            placeholder="Enter Colour"
+            required
+          />
+          <input
+            type="text"
+            class="pd-l-10"
+            id="color2"
+            placeholder="Enter Colour"
+            required
+          />
+          <input
+            type="text"
+            class="pd-l-10"
+            id="color3"
+            placeholder="Enter Colour"
+            required
+          />
+          <input
+            type="text"
+            class="pd-l-10"
+            id="color4"
+            placeholder="Enter Colour"
+            required
+          />
+          <input
+            type="text"
+            class="pd-l-10"
+            id="color5"
+            placeholder="Enter Colour"
+            required
+          />
+        </div>
+
+        <div class="btnCont mr-t-20">
+          <button class="secondaryButton" type="submit">Create</button>
+          <button
+            class="secondaryButton"
+            type="reset"
+            onclick="clearBtnHandler()"
+          >
+            Clear
+          </button>
+        </div>
+      </form>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
